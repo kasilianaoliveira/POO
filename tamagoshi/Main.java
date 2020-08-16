@@ -17,7 +17,7 @@ public class Main {
         Tamagoshi tamagoshi = new Tamagoshi(20,10,15);
         Scanner scanner = new Scanner(System.in);
 
-        while (tamagoshi.getTaVivo()) {
+        while (tamagoshi.getTaIsAlive()) {
             String line = scanner.nextLine();
             String ui[] = line.split(" ");
             
