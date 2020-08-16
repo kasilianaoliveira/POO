@@ -22,7 +22,7 @@ public class Tamagoshi {
     }
     //get
 
-    public boolean getTaVivo(){
+    public boolean getIsAlive(){
         return taVivo;
     }
     
