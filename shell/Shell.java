@@ -35,7 +35,7 @@ public class Shell {
                 for(int i = 1; i<ui.length; i++)
                     num += Float.parseFloat(ui[i]);
             } else {
-                System.out.println("Comando invalido");
+                System.out.println("invalid command");
             }
         }
 
